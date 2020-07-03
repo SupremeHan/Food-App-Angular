@@ -1,0 +1,17 @@
+form {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 3%;
+}
+
+.col-12 h3{
+    padding-top: 20px;
+}
+
+
+
+.wrapper {
+    
+    height: 100vh;
+}

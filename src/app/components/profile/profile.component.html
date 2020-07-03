@@ -1,0 +1,20 @@
+<div class="body">
+<div class="img">
+<img src="assets/img/user.png" class="rounded mx-auto d-block">
+</div>
+<div *ngIf="user" class="user text-center">
+    <h3>{{user?.displayName}}</h3>
+    <p>{{user?.email}}</p>
+</div>
+<div class="userPart">
+    <ul>
+        <li><a href="cart"><i class="fas fa-cart-arrow-down"></i><span>Orders</span></a></li>
+        <li><i class="fas fa-trophy"></i><span>Achivments</span></li>
+        <li><i class="fas fa-wrench"></i><span>Edit Profile</span></li>
+    </ul>
+</div>
+
+<div class="button">
+<button type="button" onclick="logout()">Logout</button>
+</div>
+</div>

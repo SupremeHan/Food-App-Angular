@@ -1,0 +1,58 @@
+
+.img {
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.5));
+    transition: transform .5s ease;
+}
+
+.col-6 {
+    overflow: hidden;
+}
+
+.col-6 img:hover{
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+.row.no-pad {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row.no-pad > [class*='col-6'] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color:#24537e;
+    color: #Ffff;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.my-float {
+    margin-top: 22px;
+}
+
+a {
+    color: white;
+}

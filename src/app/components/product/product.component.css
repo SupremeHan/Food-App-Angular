@@ -1,0 +1,20 @@
+table {
+    max-width: 100%;
+    width: 100vw;
+}
+
+tr {
+    border: 3px solid #24537e;
+    border-radius: 3%;
+}
+
+td {
+    padding-right: 5px;
+    width: 20%;
+}
+
+.form input{
+    width: 100%;
+    border: 1px solid black;
+    padding: 20px 0px;
+}

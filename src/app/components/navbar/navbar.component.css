@@ -1,0 +1,18 @@
+nav {
+    background-color: #24537e;
+}
+
+.navbar-1 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=eac317');
+}
+
+img {
+    height: 35px;
+    width: 35px;
+}
+
+span {
+    color: #eac317;
+    padding-left: 5px;
+}
+

@@ -1,0 +1,16 @@
+table {
+    width: 100vw;
+    border: 1px solid #24537e;
+}
+
+tr,td,th {
+    border: 2px solid #24537e;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+
+
+
